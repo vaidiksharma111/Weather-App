@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    width: 300px;
+    height: 500px;
+    background-color: #31759a;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 22px;
+}
+
+.subtitle {
+    font-size: 13px;
+    font-weight: 200;
+    color: grey;
+    margin-bottom: 2px;
+}
+
+input {
+    border-radius: 6px;
+    height: 35px;
+    width: 100%;
+    margin: 5px 5px 5px 5px;
+    border-color: #ccc;
+    border-width: thin;
+    font-weight: 600;
+}
+
+.input {
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+button {
+    border-width: thin;
+    border-style: hidden;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #21b1ff;
+    height: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #5ec1f6;
+}
+
+h2{
+    margin-top: -20px;
+}
+
+/* .small-box {
+    height: auto; 
+    margin-top: 40px;
+    background-color: #21b1ff;
+    padding: 10px; 
+    border-radius: 23px;
+    color: white;
+} */
+
+.forecast {
+    border-width: thin;
+    border-style: hidden;
+    width: 75%;
+    border-radius: 23px;
+    background-color: white;
+    height: 35px;
+    color: black;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+select {
+    background-color: #31759a;
+    color: white;
+    border-radius: 13px;
+    border-style: hidden;
+    font-size: 15px;
+    align-self: flex-start;
+}
+.small-box {
+    height: auto;
+    margin-top: 40px;
+    background-color: #21b1ff;
+    padding: 10px;
+    border-radius: 23px;
+    color: white;
+  }
+  
+  .weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .temperature {
+    margin-left: 10px;
+  }
+  
+  .right-info {
+    text-align: left;
+    flex-grow: 1;
+  }
+  
+  /* Add styles for the cloud icon */
+  .fa-cloud {
+    font-size: 24px;
+    margin-right: 10px;
+  }

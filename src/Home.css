@@ -1,0 +1,53 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body {
+  background-color: lightblue;
+} */
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  width: 300px;
+  /* Set the desired width of the box */
+  height: 240px;
+  background-color: aliceblue;
+  padding: 20px;
+  /* Optional: Add padding for better aesthetics */
+  border: 1px solid #ccc;
+  /* Optional: Add border for better visibility */
+  text-align: center;
+  border-radius: 22px;
+}
+
+.login-button {
+  background-color: #87CEFA;
+  border-radius: 15px;
+  border-color: #87CEFA;
+  width: 283px;
+  height: 41px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-top: 45px;
+}
+
+.subtitle {
+  font-size: 13px;
+  font-weight: 200;
+  color: grey;
+}
+
+p {
+  margin-bottom: 2px;
+}
+
+.login {
+  color: #87CEFA;
+}
